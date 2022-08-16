@@ -1,0 +1,226 @@
+Loading: 
+Loading: 0 packages loaded
+WARNING: /root/tensorflow/tensorflow/core/BUILD:1782:1: in includes attribute of cc_library rule //tensorflow/core:framework_headers_lib: '../../external/nsync/public' resolves to 'external/nsync/public' not below the relative path of its package 'tensorflow/core'. This will be an error in the future. Since this rule was created by the macro 'cc_header_only_library', the error might have been caused by the macro implementation in /root/tensorflow/tensorflow/tensorflow.bzl:1048:30
+INFO: Analysed target //tensorflow/examples/speech_commands:test_streaming_accuracy (0 packages loaded).
+INFO: Found 1 target...
+[0 / 1] BazelWorkspaceStatusAction stable-status.txt
+Target //tensorflow/examples/speech_commands:test_streaming_accuracy up-to-date:
+  bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy
+INFO: Elapsed time: 0.495s, Critical Path: 0.00s
+INFO: Build completed successfully, 1 total action
+
+INFO: Running command line: bazel-bin/tensorflow/examples/speech_commands/test_streaming_accuracy '--graph=/tmp/my_frozen_graph.pb' '--labels=/tmp/speech_commands_train/conv_labels.txt' '--wav=/tmp/speech_commands_train/streaming_test.wav' '--ground_truth=/tmp/speech_commands_train/streaming_test_labels.txt' --verbose
+2017-10-28 15:16:14.941821: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2017-10-28 15:16:15.656105: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 840ms: three: 0.746472 (Correct)
+2017-10-28 15:16:15.656162: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 100.0% matched, 100.0% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:21.333277: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 9930ms: one: 0.724644 (Correct)
+2017-10-28 15:16:21.333328: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 50.0% matched, 50.0% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:23.021470: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 12630ms: four: 0.730353 (Correct)
+2017-10-28 15:16:23.021524: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 60.0% matched, 60.0% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:24.933029: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 15690ms: _unknown_: 0.707116 (Correct)
+2017-10-28 15:16:24.933084: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 66.7% matched, 66.7% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:27.143242: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 19200ms: two: 0.734395 (Correct)
+2017-10-28 15:16:27.143292: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 71.4% matched, 71.4% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:29.366977: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 22740ms: seven: 0.736104 (Correct)
+2017-10-28 15:16:29.367029: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 75.0% matched, 75.0% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:31.202124: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 25680ms: four: 0.701121 (Correct)
+2017-10-28 15:16:31.202177: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 77.8% matched, 77.8% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:36.110332: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 33540ms: three: 0.72059 (Correct)
+2017-10-28 15:16:36.110389: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 66.7% matched, 66.7% correctly, 0.0% wrongly, 0.0% false positives 
+2017-10-28 15:16:38.193063: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 36870ms: nine: 0.736684 (Wrong)
+2017-10-28 15:16:38.193117: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 69.2% matched, 61.5% correctly, 7.7% wrongly, 0.0% false positives 
+2017-10-28 15:16:41.854112: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 42720ms: eight: 0.750294 (Correct)
+2017-10-28 15:16:41.854161: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 66.7% matched, 60.0% correctly, 6.7% wrongly, 0.0% false positives 
+2017-10-28 15:16:44.269711: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 46590ms: three: 0.712204 (Correct)
+2017-10-28 15:16:44.269763: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 68.8% matched, 62.5% correctly, 6.2% wrongly, 0.0% false positives 
+2017-10-28 15:16:47.998114: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 52560ms: five: 0.706471 (Correct)
+2017-10-28 15:16:47.998168: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 66.7% matched, 61.1% correctly, 5.6% wrongly, 0.0% false positives 
+2017-10-28 15:16:49.124161: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 54360ms: one: 0.708846 (Correct)
+2017-10-28 15:16:49.124213: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 68.4% matched, 63.2% correctly, 5.3% wrongly, 0.0% false positives 
+2017-10-28 15:16:53.298351: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 61050ms: _unknown_: 0.738571 (Correct)
+2017-10-28 15:16:53.298401: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 66.7% matched, 61.9% correctly, 4.8% wrongly, 0.0% false positives 
+2017-10-28 15:17:00.476496: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 72510ms: two: 0.723001 (Correct)
+2017-10-28 15:17:00.476550: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 60.0% matched, 56.0% correctly, 4.0% wrongly, 0.0% false positives 
+2017-10-28 15:17:04.482676: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 78930ms: one: 0.722933 (Correct)
+2017-10-28 15:17:04.482724: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 59.3% matched, 55.6% correctly, 3.7% wrongly, 0.0% false positives 
+2017-10-28 15:17:12.275146: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 91380ms: six: 0.705686 (Correct)
+2017-10-28 15:17:12.275200: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 54.8% matched, 51.6% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:17:17.625633: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 99960ms: eight: 0.724711 (Correct)
+2017-10-28 15:17:17.625684: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.9% matched, 50.0% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:17:21.383026: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 105840ms: seven: 0.751294 (Correct)
+2017-10-28 15:17:21.383075: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.8% matched, 50.0% correctly, 2.8% wrongly, 0.0% false positives 
+2017-10-28 15:17:27.625913: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 114540ms: eight: 0.735346 (Correct)
+2017-10-28 15:17:27.625974: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.3% matched, 48.7% correctly, 2.6% wrongly, 0.0% false positives 
+2017-10-28 15:17:30.687251: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 117870ms: three: 0.752298 (Correct)
+2017-10-28 15:17:30.687299: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.5% matched, 50.0% correctly, 2.5% wrongly, 0.0% false positives 
+2017-10-28 15:17:39.226016: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 127410ms: _unknown_: 0.704521 (Correct)
+2017-10-28 15:17:39.226068: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.2% matched, 48.8% correctly, 2.3% wrongly, 0.0% false positives 
+2017-10-28 15:17:52.965843: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 142680ms: four: 0.706967 (Correct)
+2017-10-28 15:17:52.965929: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.9% matched, 45.8% correctly, 2.1% wrongly, 0.0% false positives 
+2017-10-28 15:17:55.305979: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 145500ms: one: 0.746623 (Correct)
+2017-10-28 15:17:55.306025: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.0% matched, 46.9% correctly, 2.0% wrongly, 0.0% false positives 
+2017-10-28 15:17:59.560911: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 151860ms: eight: 0.716826 (Correct)
+2017-10-28 15:17:59.560958: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.0% matched, 47.1% correctly, 2.0% wrongly, 0.0% false positives 
+2017-10-28 15:18:05.300970: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 160590ms: seven: 0.722778 (Correct)
+2017-10-28 15:18:05.301017: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.1% matched, 46.3% correctly, 1.9% wrongly, 0.0% false positives 
+2017-10-28 15:18:07.034062: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 163230ms: five: 0.726288 (Correct)
+2017-10-28 15:18:07.034110: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.1% matched, 47.3% correctly, 1.8% wrongly, 0.0% false positives 
+2017-10-28 15:18:15.026135: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 175260ms: two: 0.705308 (Correct)
+2017-10-28 15:18:15.026181: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.5% matched, 45.8% correctly, 1.7% wrongly, 0.0% false positives 
+2017-10-28 15:18:16.210552: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 176940ms: five: 0.748993 (Correct)
+2017-10-28 15:18:16.210602: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.3% matched, 46.7% correctly, 1.7% wrongly, 0.0% false positives 
+2017-10-28 15:18:24.389901: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 189060ms: _unknown_: 0.725977 (Correct)
+2017-10-28 15:18:24.389947: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.9% matched, 45.3% correctly, 1.6% wrongly, 0.0% false positives 
+2017-10-28 15:18:26.833644: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 192840ms: five: 0.740544 (Correct)
+2017-10-28 15:18:26.833693: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.7% matched, 46.2% correctly, 1.5% wrongly, 0.0% false positives 
+2017-10-28 15:18:37.702180: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 207270ms: eight: 0.712389 (Correct)
+2017-10-28 15:18:37.702228: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 45.7% matched, 44.3% correctly, 1.4% wrongly, 0.0% false positives 
+2017-10-28 15:18:45.353712: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 217470ms: four: 0.710972 (Correct)
+2017-10-28 15:18:45.353759: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 45.2% matched, 43.8% correctly, 1.4% wrongly, 0.0% false positives 
+2017-10-28 15:18:49.026230: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 222330ms: three: 0.726328 (Wrong)
+2017-10-28 15:18:49.026276: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 45.3% matched, 42.7% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:18:52.382824: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 226860ms: four: 0.721719 (Correct)
+2017-10-28 15:18:52.382871: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.1% matched, 43.4% correctly, 2.6% wrongly, 0.0% false positives 
+2017-10-28 15:18:54.064118: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 229290ms: zero: 0.748818 (Correct)
+2017-10-28 15:18:54.064173: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.8% matched, 44.2% correctly, 2.6% wrongly, 0.0% false positives 
+2017-10-28 15:18:55.731578: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 231690ms: two: 0.728931 (Correct)
+2017-10-28 15:18:55.731679: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.4% matched, 44.9% correctly, 2.6% wrongly, 0.0% false positives 
+2017-10-28 15:18:59.765332: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 237510ms: five: 0.716932 (Correct)
+2017-10-28 15:18:59.765379: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.5% matched, 45.0% correctly, 2.5% wrongly, 0.0% false positives 
+2017-10-28 15:19:01.874085: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 240570ms: eight: 0.750506 (Correct)
+2017-10-28 15:19:01.874158: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.1% matched, 45.7% correctly, 2.5% wrongly, 0.0% false positives 
+2017-10-28 15:19:05.844861: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 246300ms: _unknown_: 0.714353 (Correct)
+2017-10-28 15:19:05.844909: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.2% matched, 45.8% correctly, 2.4% wrongly, 0.0% false positives 
+2017-10-28 15:19:16.528242: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 261780ms: three: 0.724147 (Wrong)
+2017-10-28 15:19:16.528297: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.6% matched, 43.2% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:19:19.066488: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 265440ms: six: 0.718199 (Correct)
+2017-10-28 15:19:19.066537: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.2% matched, 43.8% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:19:25.326564: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 274080ms: three: 0.701324 (Correct)
+2017-10-28 15:19:25.326617: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.7% matched, 43.5% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:19:27.202028: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 276540ms: zero: 0.707682 (Wrong)
+2017-10-28 15:19:27.202077: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.3% matched, 43.0% correctly, 4.3% wrongly, 0.0% false positives 
+2017-10-28 15:19:33.944696: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 285360ms: one: 0.712499 (Correct)
+2017-10-28 15:19:33.944745: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 46.9% matched, 42.7% correctly, 4.2% wrongly, 0.0% false positives 
+2017-10-28 15:19:36.437089: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 288600ms: five: 0.731652 (Correct)
+2017-10-28 15:19:36.437134: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.4% matched, 43.3% correctly, 4.1% wrongly, 0.0% false positives 
+2017-10-28 15:19:41.666607: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 295470ms: six: 0.711503 (Correct)
+2017-10-28 15:19:41.666664: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.5% matched, 43.4% correctly, 4.0% wrongly, 0.0% false positives 
+2017-10-28 15:19:46.281253: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 301620ms: nine: 0.711737 (Correct)
+2017-10-28 15:19:46.281304: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.5% matched, 43.6% correctly, 4.0% wrongly, 0.0% false positives 
+2017-10-28 15:19:48.379748: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 304410ms: five: 0.712309 (Correct)
+2017-10-28 15:19:48.379795: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.0% matched, 44.1% correctly, 3.9% wrongly, 0.0% false positives 
+2017-10-28 15:19:52.305144: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 309600ms: three: 0.70085 (Correct)
+2017-10-28 15:19:52.305195: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.1% matched, 44.2% correctly, 3.8% wrongly, 0.0% false positives 
+2017-10-28 15:19:57.518481: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 316530ms: _unknown_: 0.71544 (Correct)
+2017-10-28 15:19:57.518530: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.1% matched, 44.3% correctly, 3.8% wrongly, 0.0% false positives 
+2017-10-28 15:19:59.677758: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 319440ms: three: 0.742454 (Correct)
+2017-10-28 15:19:59.677810: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.6% matched, 44.9% correctly, 3.7% wrongly, 0.0% false positives 
+2017-10-28 15:20:03.476505: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 324510ms: six: 0.726495 (Correct)
+2017-10-28 15:20:03.476548: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.6% matched, 45.0% correctly, 3.7% wrongly, 0.0% false positives 
+2017-10-28 15:20:05.863560: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 327540ms: eight: 0.709452 (Correct)
+2017-10-28 15:20:05.863636: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.1% matched, 45.5% correctly, 3.6% wrongly, 0.0% false positives 
+2017-10-28 15:20:08.065212: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 330360ms: nine: 0.740021 (Correct)
+2017-10-28 15:20:08.065272: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.5% matched, 45.9% correctly, 3.6% wrongly, 0.0% false positives 
+2017-10-28 15:20:19.863559: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 345270ms: two: 0.733332 (Correct)
+2017-10-28 15:20:19.863625: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.3% matched, 44.8% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:20:31.944171: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 360660ms: zero: 0.71384 (Correct)
+2017-10-28 15:20:31.944215: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.1% matched, 43.8% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:20:34.421792: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 363900ms: six: 0.731098 (Correct)
+2017-10-28 15:20:34.421843: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.5% matched, 44.3% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:20:39.146884: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 370140ms: zero: 0.707815 (Correct)
+2017-10-28 15:20:39.146929: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.6% matched, 44.4% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:20:43.052375: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 375300ms: eight: 0.718744 (Correct)
+2017-10-28 15:20:43.052435: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.6% matched, 44.4% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:20:48.878195: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 382950ms: one: 0.741261 (Correct)
+2017-10-28 15:20:48.878246: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 47.7% matched, 44.5% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:20:50.055567: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 384480ms: zero: 0.901449 (Correct)
+2017-10-28 15:20:50.055632: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.1% matched, 45.0% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:20:52.266637: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 387390ms: six: 0.735531 (Correct)
+2017-10-28 15:20:52.266687: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.5% matched, 45.4% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:20:54.142778: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 389910ms: three: 0.708254 (Correct)
+2017-10-28 15:20:54.142824: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 48.9% matched, 45.8% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:20:57.644541: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 394590ms: seven: 0.720298 (Correct)
+2017-10-28 15:20:57.644588: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.2% matched, 46.2% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:20:59.032195: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 396480ms: zero: 0.71155 (Correct)
+2017-10-28 15:20:59.032245: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 49.6% matched, 46.6% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:21:02.084521: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 400530ms: two: 0.714144 (Correct)
+2017-10-28 15:21:02.084577: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 50.0% matched, 47.0% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:21:06.466580: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 406380ms: seven: 0.720345 (Correct)
+2017-10-28 15:21:06.466631: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 50.0% matched, 47.1% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:21:08.911288: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 409650ms: six: 0.739587 (Correct)
+2017-10-28 15:21:08.911338: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 50.4% matched, 47.4% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:21:10.329843: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 411510ms: eight: 0.712381 (Correct)
+2017-10-28 15:21:10.329897: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 50.7% matched, 47.8% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:21:12.634354: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 414660ms: _unknown_: 0.700214 (Correct)
+2017-10-28 15:21:12.634400: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.1% matched, 48.2% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:21:15.878262: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 419070ms: nine: 0.710237 (Wrong)
+2017-10-28 15:21:15.878316: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.4% matched, 47.9% correctly, 3.6% wrongly, 0.0% false positives 
+2017-10-28 15:21:17.000390: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 420690ms: one: 0.720951 (Correct)
+2017-10-28 15:21:17.000440: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.8% matched, 48.2% correctly, 3.5% wrongly, 0.0% false positives 
+2017-10-28 15:21:23.711753: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 430380ms: eight: 0.742865 (Correct)
+2017-10-28 15:21:23.711798: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.4% matched, 47.9% correctly, 3.5% wrongly, 0.0% false positives 
+2017-10-28 15:21:29.301078: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 438360ms: two: 0.709422 (Correct)
+2017-10-28 15:21:29.301125: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.0% matched, 47.6% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:21:32.338048: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 442530ms: _unknown_: 0.722951 (Correct)
+2017-10-28 15:21:32.338098: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.4% matched, 48.0% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:21:34.708516: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 445650ms: six: 0.724147 (Correct)
+2017-10-28 15:21:34.708579: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.7% matched, 48.3% correctly, 3.4% wrongly, 0.0% false positives 
+2017-10-28 15:21:36.010537: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 447390ms: eight: 0.723288 (Correct)
+2017-10-28 15:21:36.010583: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.0% matched, 48.7% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:21:40.278801: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 453000ms: three: 0.750538 (Correct)
+2017-10-28 15:21:40.278855: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.0% matched, 48.7% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:21:43.407967: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 457110ms: _unknown_: 0.708691 (Correct)
+2017-10-28 15:21:43.408017: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.3% matched, 49.0% correctly, 3.3% wrongly, 0.0% false positives 
+2017-10-28 15:21:45.926933: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 460470ms: nine: 0.733333 (Correct)
+2017-10-28 15:21:45.926981: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.6% matched, 49.4% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:21:48.537080: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 463920ms: five: 0.727718 (Correct)
+2017-10-28 15:21:48.537133: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.9% matched, 49.7% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:21:50.366092: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 466290ms: _unknown_: 0.72345 (Correct)
+2017-10-28 15:21:50.366139: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.2% matched, 50.0% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:22:03.044307: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 483060ms: three: 0.707382 (Correct)
+2017-10-28 15:22:03.044352: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 51.9% matched, 48.8% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:22:05.630641: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 486450ms: four: 0.714371 (Correct)
+2017-10-28 15:22:05.630687: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.1% matched, 49.1% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:22:08.177784: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 489780ms: five: 0.708667 (Correct)
+2017-10-28 15:22:08.177832: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.4% matched, 49.4% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:22:12.805153: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 495960ms: four: 0.741456 (Correct)
+2017-10-28 15:22:12.805201: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.4% matched, 49.4% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:22:16.648550: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 501180ms: one: 0.704176 (Correct)
+2017-10-28 15:22:16.648601: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.4% matched, 49.4% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:22:18.755819: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 504030ms: six: 0.735326 (Correct)
+2017-10-28 15:22:18.755863: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.7% matched, 49.7% correctly, 3.0% wrongly, 0.0% false positives 
+2017-10-28 15:22:23.270989: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 510060ms: three: 0.715363 (Correct)
+2017-10-28 15:22:23.271049: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.6% matched, 49.7% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:22:29.398264: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 518100ms: five: 0.719539 (Correct)
+2017-10-28 15:22:29.398319: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.6% matched, 49.7% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:22:31.313520: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 520680ms: three: 0.712755 (Correct)
+2017-10-28 15:22:31.313566: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 52.9% matched, 50.0% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:22:33.316332: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 523410ms: seven: 0.734514 (Correct)
+2017-10-28 15:22:33.316377: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.1% matched, 50.3% correctly, 2.9% wrongly, 0.0% false positives 
+2017-10-28 15:22:35.299943: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 526110ms: four: 0.703001 (Correct)
+2017-10-28 15:22:35.300000: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.4% matched, 50.6% correctly, 2.8% wrongly, 0.0% false positives 
+2017-10-28 15:22:38.213992: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 529920ms: two: 0.71974 (Correct)
+2017-10-28 15:22:38.214049: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.7% matched, 50.8% correctly, 2.8% wrongly, 0.0% false positives 
+2017-10-28 15:22:39.398609: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 531450ms: four: 0.88466 (Correct)
+2017-10-28 15:22:39.398662: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.9% matched, 51.1% correctly, 2.8% wrongly, 0.0% false positives 
+2017-10-28 15:22:49.223580: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 544500ms: _unknown_: 0.700839 (Correct)
+2017-10-28 15:22:49.223648: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.3% matched, 50.5% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:22:50.609911: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 546420ms: seven: 0.708711 (Correct)
+2017-10-28 15:22:50.609958: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.6% matched, 50.8% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:22:55.198195: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 552870ms: zero: 0.747039 (Correct)
+2017-10-28 15:22:55.198242: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.5% matched, 50.8% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:22:56.702521: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 554940ms: six: 0.712055 (Correct)
+2017-10-28 15:22:56.702567: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.8% matched, 51.1% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:22:59.834428: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 559320ms: _unknown_: 0.72806 (Correct)
+2017-10-28 15:22:59.834476: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 54.0% matched, 51.3% correctly, 2.7% wrongly, 0.0% false positives 
+2017-10-28 15:23:01.749225: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 561990ms: two: 0.730086 (Wrong)
+2017-10-28 15:23:01.749273: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 54.3% matched, 51.1% correctly, 3.2% wrongly, 0.0% false positives 
+2017-10-28 15:23:08.454300: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 571200ms: four: 0.745455 (Correct)
+2017-10-28 15:23:08.454351: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.9% matched, 50.8% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:23:10.653047: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 574230ms: _unknown_: 0.702273 (Correct)
+2017-10-28 15:23:10.653097: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 54.2% matched, 51.0% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:23:12.094985: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 576150ms: five: 0.752929 (Correct)
+2017-10-28 15:23:12.095027: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 54.4% matched, 51.3% correctly, 3.1% wrongly, 0.0% false positives 
+2017-10-28 15:23:24.466890: I tensorflow/examples/speech_commands/test_streaming_accuracy.cc:298] 592230ms: three: 0.701677 (Wrong)
+2017-10-28 15:23:24.467126: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.5% matched, 50.0% correctly, 3.5% wrongly, 0.0% false positives 
+2017-10-28 15:23:30.233558: I tensorflow/examples/speech_commands/accuracy_utils.cc:131] 53.0% matched, 49.5% correctly, 3.5% wrongly, 0.0% false positives 
