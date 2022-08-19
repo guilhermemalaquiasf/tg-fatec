@@ -1,2 +1,2 @@
 # tg-fatec-franca
-Trabalho de Graduação (Similar a Trabalho de Conclusão de Curso) do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas da FATEC Franca.
+Trabalho de Graduação para obtenção do título de Tecnólogo em Análise e Desenvolvimento de Sistemas pela FATEC - Franca.
